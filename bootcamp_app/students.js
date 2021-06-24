@@ -19,6 +19,7 @@ const pool = new Pool({
 //   })
 // })
 // .catch(err => console.error('query error', err.stack));
+
 const queryString = `
 SELECT students.id AS id, students.name AS student, cohorts.name AS cohort
 FROM students
